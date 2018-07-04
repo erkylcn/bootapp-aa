@@ -30,7 +30,7 @@ public class WebServiceConfig extends WsConfigurerAdapter {
 		wsdl11Definition.setPortTypeName("CountriesPort");
 		wsdl11Definition.setLocationUri("/ws");
 		wsdl11Definition.setTargetNamespace("http://www.eigames.com");
-		wsdl11Definition.setSchema(countriesSchema);
+		wsdl11Definition.setSchema(countriesSchema); 
 		return wsdl11Definition;
 	}
 
