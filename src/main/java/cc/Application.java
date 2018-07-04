@@ -5,7 +5,7 @@ import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
 import org.springframework.context.annotation.ComponentScan;
 
 @EnableAutoConfiguration
-@ComponentScan(basePackages = {"cc"})
+@ComponentScan(basePackages = {"cc","webservices"})
 public class Application {
 	
 	public static void main(String ... args){
